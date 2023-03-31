@@ -81,7 +81,7 @@ function get_client_ip($type = 0) {
  */
 function ding_notify_info($post_string) {
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, "https://oapi.dingtalk.com/robot/send?access_token=7a1e1332542629b6f17348a812e2a810f6193f5244f021a43977a5862befd6d2");
+    curl_setopt($ch, CURLOPT_URL, "https://oapi.dingtalk.com/robot/send?access_token=****32542629b6f17348a812e2a810f6193f5244f021a43977a5862befd6d2");
     curl_setopt($ch, CURLOPT_POST, 1);
     curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
     curl_setopt($ch, CURLOPT_HTTPHEADER, array ('Content-Type: application/json;charset=utf-8'));
